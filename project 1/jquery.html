@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.7.1.js"> </script>
+</head>
+<body>
+    <body>
+        <ul>
+        <li>kishan</li>
+        <li>kisha</li>
+        <li>kish</li>
+        <li>khan</li>
+        <li>kishn</li>
+        
+        </ul>
+        <button id="btneven">even</button>
+        <button id="btnodd">odd</button>
+        
+         <script>
+        $(document).ready(function()
+        {
+        $("#btneven").click(function()
+        {
+        
+            $("li:even").css("color","red");
+        });
+        
+        
+        $("#btnodd").click(function()
+        {
+            $("li:odd").css("color","green");
+        });
+        });
+        
+            </script>
+    
+        
+        
+        
+        
+</body>
+</html>

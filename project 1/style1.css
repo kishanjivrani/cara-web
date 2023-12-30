@@ -1,0 +1,22 @@
+nav
+{
+padding:10px;
+margin: 10px;
+position:fixed;
+word-spacing: 10px;
+align-items: center;
+display: flex;
+font-size: larger;
+}
+ img
+{
+    display: flex;
+    height: 100%;
+    width:90%;
+}
+.product
+{
+    border: solid 0.1rem black;
+}
+
+    

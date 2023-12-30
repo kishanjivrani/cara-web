@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: rgba(0, 0, 0, 0.05);
+      }
+      .parent {
+        display: flex;
+        margin: 35px auto;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .image {
+        width: 45%;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .image img {
+        width: 90%;
+        height: 90%;
+      }
+      .details {
+        width: 50%;
+        height: 75vh;
+        /* background-color: rgba(100, 100, 100, 0.234) !important;; */
+      }
+      .de {
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
+      }
+      .title {
+        font-size: xx-large;
+        font-weight: 900;
+      }
+      .price {
+        font-size: x-large;
+        font-weight: 900;
+        width: 100px;
+      }
+
+      .desc {
+        width: 100%;
+        font-size: large;
+        font-weight: 700;
+        text-align: left;
+      }
+
+      li {
+        margin: 15px;
+      }
+      button {
+        outline: 0;
+        border: 0;
+        height: 50px;
+        width: 180px;
+        margin-left: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        font-size: 16px;
+        color: white;
+        background: #8e2de2;
+        border-bottom: 3px solid #6516aa;
+        flex-grow: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="image">
+        <img src="../../washing-3.jpg" alt="" />
+      </div>
+      <div class="details">
+        <div class="de">
+          <ul>
+            <li>
+              <div class="title">samsung 20kg Washing Machine</div>
+            </li>
+            <li>
+              <div class="price">18$</div>
+            </li>
+            <li>
+              <div class="desc">
+                Wasing Machine Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Deserunt, harum.
+              </div>
+            </li>
+          </ul>
+          <button>
+            Add To Cart
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.7.1.js">
+
+    </script>
+</head>
+<body>
+<ul>
+<li>kishan</li>
+<li>kisha</li>
+<li>kish</li>
+<li>khan</li>
+<li>kishn</li>
+
+</ul>
+<button id="btnshow">show</button>
+<button id="btnhide">hide</button>
+
+ <script>
+$(document).ready(function()
+{
+$("#btnshow").click(function()
+{
+
+    $("li:even").show();
+});
+
+
+$("#btnhide").click(function()
+{
+    $("li:even").hide();
+});
+});
+
+    </script>
+</body>
+</html>
+
+
+
